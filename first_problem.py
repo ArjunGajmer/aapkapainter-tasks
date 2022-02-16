@@ -15,7 +15,7 @@ arr = [1, 2, 2,4, 4, 1]
 assert first_duplicate_occurance(arr) == 2
 
 arr = []
-assert first_duplicate_occurance(arr) == None
+assert first_duplicate_occurance(arr) is  None
 
 arr = [1, 1, 2, 3,4, 4]
 assert first_duplicate_occurance(arr) == 1
